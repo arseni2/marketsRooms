@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+@theme {
+  --color-secondary: #8c94a8;
+  --color-primary: #007bfb;
+  --color-gray-150: #f5f5f5;
+}
+* {
+  box-sizing: border-box;
+}
+
+.outline-gray-200 {
+  @apply border border-solid bg-white text-black;
+  border-color: var(--color-gray-200, #e5e7eb);
+}
+.m-section {
+  margin-top: 92px;
+}
+
+
+@font-face {
+  font-family: 'CoFo Sans';
+  src: url('./font/cofo/CoFoSans-Bold.eot');
+  src: local('CoFo Sans Bold'), local('CoFoSans-Bold'),
+  url('./font/cofo/CoFoSans-Bold.eot?#iefix') format('embedded-opentype'),
+  url('./font/cofo/CoFoSans-Bold.woff2') format('woff2'),
+  url('./font/cofo/CoFoSans-Bold.woff') format('woff'),
+  url('./font/cofo/CoFoSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CoFo Sans';
+  src: url('./font/cofo/CoFoSans-Black.eot');
+  src: local('CoFo Sans Black'), local('CoFoSans-Black'),
+  url('./font/cofo/CoFoSans-Black.eot?#iefix') format('embedded-opentype'),
+  url('./font/cofo/CoFoSans-Black.woff2') format('woff2'),
+  url('./font/cofo/CoFoSans-Black.woff') format('woff'),
+  url('./font/cofo/CoFoSans-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CoFo Sans';
+  src: url('./font/cofo/CoFoSans-Regular.eot');
+  src: local('CoFo Sans'), local('CoFoSans-Regular'),
+  url('./font/cofo/CoFoSans-Regular.eot?#iefix') format('embedded-opentype'),
+  url('./font/cofo/CoFoSans-Regular.woff2') format('woff2'),
+  url('./font/cofo/CoFoSans-Regular.woff') format('woff'),
+  url('./font/cofo/CoFoSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CoFo Sans';
+  src: url('./font/cofo/CoFoSans-Medium.eot');
+  src: local('CoFo Sans Medium'), local('CoFoSans-Medium'),
+  url('./font/cofo/CoFoSans-Medium.eot?#iefix') format('embedded-opentype'),
+  url('./font/cofo/CoFoSans-Medium.woff2') format('woff2'),
+  url('./font/cofo/CoFoSans-Medium.woff') format('woff'),
+  url('./font/cofo/CoFoSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+
+/*.cofo-sans-regular {*/
+/*  font-family: 'CoFo Sans', sans-serif;*/
+/*  font-weight: 400;*/
+/*  font-style: normal;*/
+/*}*/
+
+/*.cofo-sans-medium {*/
+/*  font-family: 'CoFo Sans', sans-serif;*/
+/*  font-weight: 500;*/
+/*  font-style: normal;*/
+/*}*/
+
+/*.cofo-sans-semibold {*/
+/*  font-family: 'CoFo Sans', sans-serif;*/
+/*  font-weight: 600;*/
+/*  font-style: normal;*/
+/*}*/
+
+/*.cofo-sans-bold {*/
+/*  font-family: 'CoFo Sans', sans-serif;*/
+/*  font-weight: 700;*/
+/*  font-style: normal;*/
+/*}*/
+
+/*.cofo-sans-black {*/
+/*  font-family: 'CoFo Sans', sans-serif;*/
+/*  font-weight: 900;*/
+/*  font-style: normal;*/
+/*}*/
